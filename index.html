@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h2 class="page-heading">My Work</h2>
+
+  <ul class="post-list">
+    {% assign sorted = (site.portfolio | sort: 'date') | reverse %}
+    {% for post in sorted %}
+      <li>
+        <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <div class="thumbnail-pic">
+          <img src="{{post.thumbnail-path}}" alt="{{post.title}}">
+        </div>
+        <p>{{post.excerpt}}</p>
+
+      </li>
+    {% endfor %}
+  </ul>
+
+
+</div>

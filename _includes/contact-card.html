@@ -1,0 +1,31 @@
+<aside class="contact-card">
+  <h3 class="contact-card-header">Contact Card</h3>
+  <ul class="contact-items-list">
+    <li class="contact-item on-laptop">
+      <b>email:</br></b>
+      <span>
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      </span>
+    </li>
+    <li class="contact-item">
+      <b>linkedin:</br></b>
+      <span>
+        {% include icon-linkedin.html username=site.linkedin_username %}
+      </span>
+    </li>
+    <li class="contact-item on-big">
+      <b>phone:</br></b>
+      <span>
+        request by email
+      </span>
+    </li>
+    <li class="contact-item">
+      <b>github repo:</br></b>
+      <span>
+        {% include icon-github.html username=site.github_username %}
+      </span>
+    </li>
+  </ul>
+
+
+</aside>
