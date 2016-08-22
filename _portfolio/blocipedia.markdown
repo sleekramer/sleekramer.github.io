@@ -3,7 +3,7 @@ layout: post
 title: "Blocipedia"
 categories: project
 feature-img: "img/sample_feature_img.png"
-thumbnail-path: "img/Blocipedia_screenshots_740px.gif"
+thumbnail-path: "img/blocipedia_screenshots_740px.gif"
 short-description: Create, Share, and Update wikis on any subject you choose.
 excerpt_separator: <!--more-->
 date: 2015-11-23 11:27:48
