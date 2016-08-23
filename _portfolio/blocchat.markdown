@@ -7,12 +7,17 @@ thumbnail-path: "img/BlocChat_screenshot_740px.gif"
 short-description: Simple, chat room application built with AngularJS and Rails.
 excerpt_separator: <!--more-->
 date: 2016-03-07 15:20:18
-
+order: 5
+before:
+  url: "portfolio/blocmetrics"
+after:
+  url: "portfolio/bloccit"
 ---
 ## Summary
 
 BlocChat is a simple chat application that allows users to create chat rooms and post messages after they have chosen a username. Using AngularJS to make HTTP requests and Rails for the backend to serve data to Angular, BlocChat is able to provide real time sending and recieving of messages.
 <!--more-->
+
 ## Explanation
 
 BlocChat was built following user stories specified by Bloc, and built with input from my Bloc mentor, John O'Connor. While the user stories were provided by Bloc, I had to implement the features on my own.

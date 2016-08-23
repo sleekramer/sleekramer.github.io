@@ -7,11 +7,17 @@ thumbnail-path: "img/InjuryForum_screenshots_740px.gif"
 short-description: Forum site for skeletomuscular injuries.
 excerpt_separator: <!--more-->
 date: 2016-02-17 21:14:47
+order: 2
+before:
+  url: "portfolio/portfolio-generator"
+after:
+  url: "portfolio/blocjams"
 ---
 ## Summary
 
 There are a plethora of diagnostic and informative medical websites and applications, but there is no place for patients to share their experiences with treatment and recovery. Injury Forum provides such a space.  Users are able to share their stories about recovery, as well as their treatment plans and methods in order to provide a first or second opinion to fellow patients, who often are subscribed a single option for recovery.
 <!--more-->
+
 ## Explanation
 
 I decided to build this application as my capstone project during my time at Bloc. Each stage of the development process for this application was directed by me and the majority of the codebase was written by me, as well. Throughout the building process, my mentor, Charlie Gaines, provided helpful and insightful feedback, which directed some of the decisions I made.  The application was built over the course of five weeks during my Bloc Rails Development Apprenticeship.

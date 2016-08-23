@@ -7,7 +7,11 @@ thumbnail-path: "img/Blocitoff_screenshot_740px.gif"
 short-description: To-do List Application with API.
 excerpt_separator: <!--more-->
 date: 2016-02-29 17:12:41
-
+order: 7
+before:
+  url: "portfolio/bloccit"
+after:
+  url: "portfolio/blocipedia"
 ---
 ## Summary
 
@@ -15,6 +19,7 @@ Blocitoff is a to-do list application that allows a user to dynamically create a
 
 Also included in Blocitoff is an API for clients to make HTTP requests directly to the server. This allows for other potential applications and command-line interfaces to gain access to Blocitoff.
 <!--more-->
+
 ## Explanation
 
 The basic specifications for Blocitoff were provided by Bloc, but beyond that, I was able to approach the development process in my own manner. With guidance from my Bloc mentor, Charlie Gaines, I wrote the code for this application myself. During the development of this project I was faced with writing my first scripts for DOM manipulation using JQuery and unobtrusive javascript. Until this point, I had briefly encountered JQuery. Another piece of this project that was particularly enlightening was creating the API, which was the first that I had implemented on my own. Using the "tiddle" gem I was able to implement token based user authentication for the Blocitoff API as well.

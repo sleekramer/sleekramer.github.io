@@ -7,7 +7,7 @@ layout: default
   <h2 class="page-heading">My Work</h2>
 
   <ul class="post-list">
-    {% assign sorted = (site.portfolio | sort: 'date') | reverse %}
+    {% assign sorted = (site.portfolio | sort: 'order') %}
     {% for post in sorted %}
       <li>
         <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->

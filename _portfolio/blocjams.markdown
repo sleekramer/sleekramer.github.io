@@ -7,7 +7,11 @@ thumbnail-path: "img/BlocJams_screenshots_740px.gif"
 short-description: A Spotify replica, learning exercise for vanilla Javascript, JQuery, HTML, CSS, and AngularJS.
 excerpt_separator: <!--more-->
 date: 2016-02-29 11:38:34
-
+order: 3
+before:
+  url: "portfolio/injuryforum"
+after:
+  url: "portfolio/blocmetrics"
 ---
 ## Summary
 
@@ -15,6 +19,7 @@ BlocJams is a Spotify replica that was built for the purpose of learning the bas
 
 BlocJamsAngular is a refactoring of the original using AngularJS in place of JQuery and vanilla Javascript.
 <!--more-->
+
 ## Explanation
 
 These projects were guided by a tutorial through Bloc.  They were built as part of my Bloc apprenticeship with my mentor, John O'Connor.

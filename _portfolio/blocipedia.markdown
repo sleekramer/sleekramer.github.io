@@ -7,11 +7,16 @@ thumbnail-path: "img/blocipedia_screenshots_740px.gif"
 short-description: Create, Share, and Update wikis on any subject you choose.
 excerpt_separator: <!--more-->
 date: 2015-11-23 11:27:48
+order: 8
+before:
+  url: "portfolio/blocitoff"
+
 ---
 ## Summary
 
 Blocipedia is an application that allows users to create public and private wikis for any topic they desire. All wikis are Markdown-based, public wikis are free to be edited by all users, and private wikis are only able to be updated by designated collaborators. Creation of private wikis, however, is a privilege reserved for premium users, who have paid the $15 upgrade fee. Blocipedia serves as a great place for users to create and share knowledge and ideas about any subject. Private wikis are only a
 <!--more-->
+
 ## Explanation
 
 I was the primary developer on this project and the user stories were provided in a project outline from Bloc. The user stories were used as a guide for the eventual functionality of the app, but I was given the liberty of implementing each feature as I saw fit.

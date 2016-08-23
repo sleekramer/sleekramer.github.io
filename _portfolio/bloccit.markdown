@@ -7,11 +7,17 @@ thumbnail-path: "img/Bloccit_screenshots_740px.gif"
 short-description: A Reddit replica, learning exercise for Ruby on Rails web development.
 excerpt_separator: <!--more-->
 date: 2015-11-08 19:21:19
+order: 6
+before:
+  url: "portfolio/blocchat"
+after:
+  url: "portfolio/blocitoff"
 ---
 ## Summary
 
 Bloccit is a Reddit replica site, so it operates in a manner very similar to that of Reddit.  Users are able to register an account and create and browse through topics, in which they are able to create, comment on, save, and vote on posts.
 <!--more-->
+
 ## Explanation
 
 The main purpose for building Bloccit was as an exercise for learning the ins-and-outs of web development using the Ruby on Rails framework.  Throughout the building process, I learned about everything from the basics of the MVC model to Rails scaffolds to updating page content using unobtrusive javascript.  Development of Bloccit was heavily guided by a tutorial, but that is not to say I haven't added a few personal touches to the application.  I was also aided by the instruction of my Bloc Mentor, Charlie Gaines.

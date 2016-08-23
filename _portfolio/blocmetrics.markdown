@@ -7,11 +7,17 @@ thumbnail-path: "img/Blocmetrics_screenshot_740px.gif"
 short-description: Analytics service to track user events on websites.
 excerpt_separator: <!--more-->
 date: 2015-12-10 19:27:31
+order: 4
+before:
+  url: "portfolio/blocjams"
+after:
+  url: "portfolio/blocchat"
 ---
 ## Summary
 
 Blocmetrics is an app built to solve the problem of tracking user activities on on you web application. Users are able to register their applications through their account. Then, after including a minor javascript snippet into their codebase, which creates "events" in the Blocmetrics database, users have access to visualizations of their own users' activities.
 <!--more-->
+
 ## Explanation
 
 The basic requirements and user stories for this project were provided through the Bloc curriculum, but I implemented the features on my own with limited input from my Bloc mentor, Charlie Gaines. Through building this project I gained insight into the basics of analytics services.
