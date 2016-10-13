@@ -11,7 +11,7 @@ position: Fullstack Developer
 email: sleekramer@gmail.com
 description: "Steven Lee-Kramer -- Fullstack Developer Portfolio Site.  Developer specializing in Javascript, AngularJS, Node.js, JQuery, HTML5, CSS3, Ruby, and Rails. Has working knowledge of PHP, Python, Flask, Bash, Git."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://localhost:4000" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 github_username: sleekramer
 linkedin_username: stevenleekramer
 # Build settings

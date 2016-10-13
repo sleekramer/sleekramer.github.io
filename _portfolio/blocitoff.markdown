@@ -4,6 +4,7 @@ title: "Blocitoff"
 categories: project
 feature-img: "img/sample_feature_img.png"
 thumbnail-path: "img/Blocitoff_screenshot_740px.gif"
+github-repo: "github.com/sleekramer/blocitoff"
 short-description: To-do List Application with API.
 excerpt_separator: <!--more-->
 date: 2016-02-29 17:12:41

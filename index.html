@@ -14,11 +14,15 @@ layout: default
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          {% if post.github-repo %}
+            <a class="github-link" href="{{ post.github-repo }}">View on github <span class="icon icon--github">{% include icon-github.svg %}</span></a>
+          {% endif %}
         </h2>
+
         <div class="thumbnail-pic">
           <img src="{{post.thumbnail-path}}" alt="{{post.title}}">
         </div>
-        <p>{{post.excerpt}}</p>
+        {{post.excerpt}}
 
       </li>
     {% endfor %}

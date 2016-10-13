@@ -4,6 +4,7 @@ title: "InjuryForum"
 categories: project
 feature-img: "img/sample_feature_img.png"
 thumbnail-path: "img/InjuryForum_screenshots_740px.gif"
+github-repo: "github.com/sleekramer/injury-forum"
 short-description: Forum site for skeletomuscular injuries.
 excerpt_separator: <!--more-->
 date: 2016-02-17 21:14:47

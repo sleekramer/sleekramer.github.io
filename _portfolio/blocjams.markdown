@@ -4,6 +4,7 @@ title: "BlocJams and BlocJamsAngular"
 categories: project
 feature-img: "img/sample_feature_img.png"
 thumbnail-path: "img/BlocJams_screenshots_740px.gif"
+github-repo: "github.com/sleekramer/bloc-jams-angular"
 short-description: A Spotify replica, learning exercise for vanilla Javascript, JQuery, HTML, CSS, and AngularJS.
 excerpt_separator: <!--more-->
 date: 2016-02-29 11:38:34

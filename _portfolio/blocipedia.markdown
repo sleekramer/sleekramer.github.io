@@ -4,6 +4,7 @@ title: "Blocipedia"
 categories: project
 feature-img: "img/sample_feature_img.png"
 thumbnail-path: "img/blocipedia_screenshots_740px.gif"
+github-repo: "github.com/sleekramer/blocipedia"
 short-description: Create, Share, and Update wikis on any subject you choose.
 excerpt_separator: <!--more-->
 date: 2015-11-23 11:27:48

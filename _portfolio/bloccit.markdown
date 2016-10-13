@@ -4,6 +4,7 @@ title: Bloccit
 categories: project
 feature-img: "img/sample_feature_img.png"
 thumbnail-path: "img/Bloccit_screenshots_740px.gif"
+github-repo: "github.com/sleekramer/bloccit"
 short-description: A Reddit replica, learning exercise for Ruby on Rails web development.
 excerpt_separator: <!--more-->
 date: 2015-11-08 19:21:19

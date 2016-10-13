@@ -276,7 +276,14 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+  padding: $spacing-unit 0;
+  margin-bottom: 5rem;
+  @include media-query($on-laptop) {
+    margin-bottom: 3rem;
+  }
+  @include media-query($on-palm) {
+    margin-bottom: 1rem;
+  }
 }
 
 .page-heading {
@@ -294,6 +301,12 @@
         &:not(:last-child) {
           border-bottom: $grey-color-light 1px solid;
         }
+        > p {
+          @include media-query($on-palm) {
+            text-align: justify;
+            padding: 0 2.5% 0 2.5%;
+          }
+        }
     }
 }
 
@@ -303,15 +316,86 @@
 }
 
 .post-link {
-    display: block;
+    display: inline-block;
     font-size: 24px;
-    font-weight: bolder;;
+    font-weight: bolder;
     &:hover{
       cursor: pointer;
     }
+    @include media-query($on-palm) {
+      font-size: 32px;
+      display: block;
+      text-align: center;
+    }
+}
+
+.github-link {
+  display: inline-block;
+  font-size: 16px;
+  float: right;
+  color: $grey-color;
+  text-decoration: none;
+  margin-top: 0.4em;
+  &:hover{
+    cursor: pointer;
+    color: $grey-color-dark;
+  }
+  &:visited{
+    color: rgb(23,86,169);
+  }
+  @include media-query($on-palm) {
+    margin-top: 0;
+    display: block;
+    float: none;
+    text-align: center;
+  }
 }
 
 
+.post-header {
+  .github-link {
+    margin-top: 0;
+  }
+  @include media-query($on-palm) {
+    .github-link {
+      display: inline-block;
+      float: right;
+      margin-bottom: 15px;
+    }
+    .post-meta {
+      display: inline-block;
+      float: left;
+    }
+  }
+}
+.page-image {
+  @include media-query($on-palm) {
+    margin-top: 60px;
+  }
+}
+
+.thumbnail-pic {
+    border: $grey-color 2px solid;
+    margin: auto auto 2.5% 2.5%;
+    float: right;
+    width: 350px;
+    height: auto;
+    @include media-query($on-palm) {
+      float: none;
+      margin: 0 auto;
+    }
+}
+
+#summary{
+  @include media-query($on-palm) {
+    text-align: center;
+    margin-top: 2rem;
+  }
+}
+
+.post-content #summary {
+  text-align: left;
+}
 
 /**
  * Posts
@@ -324,11 +408,11 @@
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
-
     @include media-query($on-laptop) {
         font-size: 36px;
     }
 }
+
 
 .post-content {
     margin-bottom: $spacing-unit;
@@ -355,6 +439,9 @@
         @include media-query($on-laptop) {
             font-size: 18px;
         }
+    }
+    p {
+      text-align: justify;
     }
 }
 
