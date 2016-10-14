@@ -4,7 +4,7 @@ title: "BlocMetrics"
 categories: project
 feature-img: "img/sample_feature_img.png"
 thumbnail-path: "img/Blocmetrics_screenshot_740px.gif"
-github-repo: "github.com/sleekramer/blocmetrics"
+github-repo: "https://github.com/sleekramer/blocmetrics"
 short-description: Analytics service to track user events on websites.
 excerpt_separator: <!--more-->
 date: 2015-12-10 19:27:31

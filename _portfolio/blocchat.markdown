@@ -4,7 +4,7 @@ title: "BlocChat"
 categories: project
 feature-img: "img/sample_feature_img.png"
 thumbnail-path: "img/BlocChat_screenshot_740px.gif"
-github-repo: "github.com/sleekramer/bloc-chat-rails"
+github-repo: "https://github.com/sleekramer/bloc-chat-rails"
 short-description: Simple, chat room application built with AngularJS and Rails.
 excerpt_separator: <!--more-->
 date: 2016-03-07 15:20:18

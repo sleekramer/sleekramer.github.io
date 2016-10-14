@@ -3,7 +3,7 @@ layout: post
 title: "Portfolio Generator"
 categories: project
 thumbnail-path: "img/Portfolio_Generator_screenshots_740px.gif"
-github-repo: "github.com/sleekramer/portfolio-generator"
+github-repo: "https://github.com/sleekramer/portfolio-generator"
 short-description: AngularJS and Rails application for easily creating a technical portfolio to be hosted on the site.
 excerpt_separator: <!--more-->
 date: 2016-04-15 15:20:18
